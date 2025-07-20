@@ -7,8 +7,7 @@ Programming language used is Java 21
 I iterate through list of strings that's the method argument, check if it has any repetitive identical characters. Pick and store them in a list then remove them from the original String list and the remaining confirm whether their characters are allowed then calculate the longest string from the remaining and return it.
 
 ###2. Uniqe sums:
-Calculate all possible additions of each array element to equal the result and with the array sorted
-        check if the elements of the array qualify for the possible unique ways. Store in the map and output it.
+Calculate all possible additions of each array element to equal the result and with the array sorted check if the elements of the array qualify for the possible unique ways. Store in the map and output it.
 
 ###3. Turn to Zero:
 iterate through the array starting from the element in the second position, then have a variable that
@@ -30,3 +29,10 @@ Break down the string to make it iteratable, iterate it calculating and storing 
 first ensure the provided strings are within the size of the list create a new list to store the elements in 
       their new placement. Then pull the elements from the first one and lodge them to the end of the string. 
       Repeat this for the number of times indicated by n
+      
+# Running the programms:
+Compile and run each .java file using bash commands as shown in the example below.
+first cd into the folder where the files are in and run the following commands:
+
+javac Question1_GetLongestString.java
+java Question1_GetLongestString
