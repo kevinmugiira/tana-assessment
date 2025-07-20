@@ -7,6 +7,8 @@ Programming language used is Java 21
 I iterate through list of strings that's the method argument, check if it has any repetitive identical characters. Pick and store them in a list then remove them from the original String list and the remaining confirm whether their characters are allowed then calculate the longest string from the remaining and return it.
 
 ###2. Uniqe sums:
+Calculate all possible additions of each array element to equal the result and with the array sorted
+        check if the elements of the array qualify for the possible unique ways. Store in the map and output it.
 
 ###3. Turn to Zero:
 iterate through the array starting from the element in the second position, then have a variable that
